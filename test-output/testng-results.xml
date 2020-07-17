@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="54166" started-at="2020-07-16T05:52:58Z" finished-at="2020-07-16T05:53:52Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:test.TestRunner@7cd62f43]" name="feature" class="test.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="54166" started-at="2020-07-16T05:52:58Z" finished-at="2020-07-16T05:53:52Z">
+      <class name="test.TestRunner">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.TestRunner@7cd62f43]" name="openBrowser" is-config="true" duration-ms="16" started-at="2020-07-16T11:22:58Z" finished-at="2020-07-16T11:22:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:test.TestRunner@7cd62f43]" name="setUpClass" is-config="true" duration-ms="439" started-at="2020-07-16T11:22:58Z" finished-at="2020-07-16T11:22:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:test.TestRunner@7cd62f43]" name="feature" duration-ms="53551" started-at="2020-07-16T11:22:58Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-07-16T11:23:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This feauture to automate admin to create course]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="getScrenResult(org.testng.ITestResult)[pri:0, instance:test.TestRunner@7cd62f43]" name="getScrenResult" is-config="true" duration-ms="4" started-at="2020-07-16T11:23:52Z" finished-at="2020-07-16T11:23:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=feature status=SUCCESS method=TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:test.TestRunner@7cd62f43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScrenResult -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:test.TestRunner@7cd62f43]" name="tearDownClass" is-config="true" duration-ms="30" started-at="2020-07-16T11:23:52Z" finished-at="2020-07-16T11:23:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
