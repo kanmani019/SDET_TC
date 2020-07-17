@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10814327600,
+              "duration": 10469550700,
               "status": "passed"
             },
             "line": 8,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 4240601200,
+              "duration": 5630307600,
               "status": "passed"
             },
             "line": 9,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 1779630800,
+              "duration": 1097230700,
               "status": "passed"
             },
             "line": 10,
@@ -48,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 439406100,
+              "duration": 219046500,
               "status": "passed"
             },
             "line": 11,
@@ -60,7 +60,7 @@
           },
           {
             "result": {
-              "duration": 295840700,
+              "duration": 121485200,
               "status": "passed"
             },
             "line": 12,
@@ -72,7 +72,7 @@
           },
           {
             "result": {
-              "duration": 458523300,
+              "duration": 437532700,
               "status": "passed"
             },
             "line": 13,
@@ -84,7 +84,7 @@
           },
           {
             "result": {
-              "duration": 7373630100,
+              "duration": 6261799600,
               "status": "passed"
             },
             "line": 14,
@@ -96,7 +96,7 @@
           },
           {
             "result": {
-              "duration": 3048603200,
+              "duration": 1850866700,
               "status": "passed"
             },
             "line": 15,
@@ -124,7 +124,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9624718800,
+              "duration": 8209393600,
               "status": "passed"
             },
             "line": 20,
@@ -136,7 +136,7 @@
           },
           {
             "result": {
-              "duration": 4437130000,
+              "duration": 3961759200,
               "status": "passed"
             },
             "line": 21,
@@ -148,7 +148,7 @@
           },
           {
             "result": {
-              "duration": 3096735300,
+              "duration": 2484689200,
               "status": "passed"
             },
             "line": 22,
@@ -160,7 +160,7 @@
           },
           {
             "result": {
-              "duration": 779400500,
+              "duration": 811797200,
               "status": "passed"
             },
             "line": 23,
@@ -172,7 +172,7 @@
           },
           {
             "result": {
-              "duration": 153312600,
+              "duration": 128895000,
               "status": "passed"
             },
             "line": 24,
@@ -184,7 +184,7 @@
           },
           {
             "result": {
-              "duration": 266651700,
+              "duration": 135981800,
               "status": "passed"
             },
             "line": 25,
@@ -196,7 +196,7 @@
           },
           {
             "result": {
-              "duration": 390196300,
+              "duration": 363064900,
               "status": "passed"
             },
             "line": 26,
@@ -208,7 +208,7 @@
           },
           {
             "result": {
-              "duration": 1245491000,
+              "duration": 1052133200,
               "status": "passed"
             },
             "line": 27,
@@ -235,6 +235,246 @@
     "tags": [
       {
         "line": 2,
+        "name": "@CreateCourse"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "To verify whether application allows admin to create course",
+        "description": "",
+        "id": "this-feauture-to-automate-admin-to-create-course;to-verify-whether-application-allows-admin-to-create-course",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8298283200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I launch the application",
+            "match": {
+              "location": "CreateCourse_Stepdefinition.i_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4575246100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter my username and password",
+            "match": {
+              "location": "CreateCourse_Stepdefinition.i_enter_my_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1321142400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click the create a course link",
+            "match": {
+              "location": "CreateCourse_Stepdefinition.i_click_the_create_a_course_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 268000200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter valid credential in Title textbox",
+            "match": {
+              "location": "CreateCourse_Stepdefinition.enter_valid_credential_in_Title_textbox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 197592700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter valid credential in  code textbox",
+            "match": {
+              "location": "CreateCourse_Stepdefinition.enter_valid_credential_in_code_textbox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 615313900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Select Valid credentials from Category list box",
+            "match": {
+              "location": "CreateCourse_Stepdefinition.select_Valid_credentials_from_Category_list_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6395075400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Select Valid credentials in Teacher list box",
+            "match": {
+              "location": "CreateCourse_Stepdefinition.select_Valid_credentials_in_Teacher_list_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1995483700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click on Create a course button",
+            "match": {
+              "location": "CreateCourse_Stepdefinition.click_on_Create_a_course_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@CreateCourseCheck"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "To verify whether application allows admin to create class",
+        "description": "",
+        "id": "this-feauture-to-automate-admin-to-create-course;to-verify-whether-application-allows-admin-to-create-class",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9706791900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I launch the application",
+            "match": {
+              "location": "CreateCourse_Stepdefinition.i_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4817213100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I enter my username and password",
+            "match": {
+              "location": "CreateCourse_Stepdefinition.i_enter_my_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2525164400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click the create a class link",
+            "match": {
+              "location": "CreateCourse_Stepdefinition.i_click_the_create_a_class_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 887846400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on Add classes icon",
+            "match": {
+              "location": "CreateCourse_Stepdefinition.i_click_on_Add_classes_icon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 166763000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Enter valid credentials in Name textbox",
+            "match": {
+              "location": "CreateCourse_Stepdefinition.enter_valid_credentials_in_Name_textbox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 285814400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Enter valid credentials in Description textbox",
+            "match": {
+              "location": "CreateCourse_Stepdefinition.enter_valid_credentials_in_Description_textbox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 420327400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Select valid credentials in Group permissions list box",
+            "match": {
+              "location": "CreateCourse_Stepdefinition.select_valid_credentials_in_Group_permissions_list_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 962027800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Click on Add button",
+            "match": {
+              "location": "CreateCourse_Stepdefinition.click_on_Add_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@CreateClassCheck"
+          }
+        ]
+      }
+    ],
+    "name": "This feauture to automate admin to create course",
+    "description": "I want to use this template for my feature file",
+    "id": "this-feauture-to-automate-admin-to-create-course",
+    "keyword": "Feature",
+    "uri": "CreateCourse_Excel.feature",
+    "tags": [
+      {
+        "line": 1,
         "name": "@CreateCourse"
       }
     ]
